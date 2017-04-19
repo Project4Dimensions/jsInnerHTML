@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jsInnerHTML</title>
+  <meta name="description" content="jsInnerHTML: a JavaScript algorithm to replace inner HTML element content">
+  <meta name="research" content="Project4Dimensions">
+  <meta name="keywords" content="jsInnerHTML JavaScript replace inner HTML element content">
+  <meta name="application-name" content="jsInnerNodes">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <h1>
+    <small>Why jsInnerHTML?</small>
+  </h1>
+  <p>
+    jsInnerHTML is a JavaScript algorithm that can be used to insert 
+    new content or replace existing nodes of an HTML element.
+    <a href="https://github.com/Project4Dimensions/jsInnerHTML">
+      <pre>https://github.com/Project4Dimensions/jsInnerHTML</pre>
+    </a>
+  </p>
+  <hr class="double">
+  <p>
+    <button onclick="jsInnerHTML('node0', '<li>New stuff!</li>');">
+      Invoke jsInnerHTML
+    </button>
+  </p>
+  <ol id="node0">
+      <li>Some old stuff…</li>
+  </ol>
+  <hr>
+  <h2>
+    <small>References</small>
+  </h2>
+  <p>
+      MDN contributors. 2016. “Element.innerHTML - Web APIs.”
+      <em>Mozilla Developer Network</em>. December 15.<br>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML">
+        https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
+      </a>.
+  </p>
+  <script src="inner-html.js"></script>
+</body>
+</html>
